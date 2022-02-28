@@ -11,6 +11,8 @@ h6 {
     font-weight: 100;
 }
 
+
+
 hr {
     border-color: #fff;
     margin-top: 2.5rem;
@@ -47,12 +49,18 @@ section h2 {
     color: #fff;
 }
 
+.navbar {
+    background: linear-gradient(to left, #00c6ff, #328eff);
+}
+
 #mainNav .navbar-nav {
+   
     letter-spacing: 0.0625rem;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
     color: #fff;
+    
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active,
@@ -60,14 +68,9 @@ section h2 {
     color: #fff;
 }
 
-header.masthead {
-    padding-top: calc(3rem + 56px);
-    padding-bottom: 6rem;
-}
-
 header.masthead h1 {
     font-size: 3rem;
-    line-height: 3rem;
+    
 }
 
 header.masthead h2 {
@@ -75,9 +78,8 @@ header.masthead h2 {
 }
 
 @media (min-width: 992px) {
-    header.masthead {
-        padding-top: calc(2rem + 106px);
-        padding-bottom: 6rem;
+    header.masthead h1 {
+        padding-top: 3rem;
     }
     header.masthead h1 {
         font-size: 4.75em;
@@ -198,12 +200,12 @@ header.masthead h2 {
 .footer {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: #1a252f;
+    background-color: #328eff;
     color: #fff;
 }
 
 .copyright {
-    background-color: #1a252f;
+    background-color: #328eff;
 }
 
 a:focus,
@@ -213,13 +215,13 @@ a:active {
 }
 
 .close-link {
-    color: #30336b;
+    color: #328eff;
 }
 
 .close-link:focus,
 .close-link:hover,
 .close-link:active {
-    color: #30336b;
+    color: #328eff;
 }
 
 .btn {
@@ -227,7 +229,7 @@ a:active {
 }
 
 .bg-primary {
-    background-color: #30336b !important;
+    background-color: #328eff !important;
 }
 
 .bg-secondary {
@@ -250,7 +252,24 @@ a:active {
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-    background-color: #30336b !important;
+    background-color: #328eff !important;
     border-color: #30336b !important;
     color: #fff;
 }
+
+
+  
+.wave {
+  background: linear-gradient(to left, #00c6ff, #328eff);
+  min-height: 350px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wave-svg{
+    width: 100%;
+    transform: translateY(-80px);
+  }
